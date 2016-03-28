@@ -1,0 +1,40 @@
+.duck1{
+  width: 150px;
+  padding-top: 75px;
+  margin-left: 30px;
+}
+.duck2{
+  width: 150px;
+  padding-top: 30px;
+  margin-left: 30px;
+}
+body{
+  background-image: url("../images/waves.jpg");
+  background-size: cover;
+  background-position: center -300px;
+  background-repeat: no-repeat;
+  background-color: rgba(110,207,242,1);
+}
+h1{
+  text-align: center;
+  font-size: 200px;
+  font-family: 'Bangers', cursive;
+  margin-top: 15px;
+  color: #F2C802;
+  text-shadow: 10px 10px #000000
+}
+.btn{
+  float:right;
+  bottom: -20px;
+  font-size: 30px;
+  font-family: 'Bangers', cursive;
+}
+#winner{
+  text-align: center;
+  font-size: 60px;
+  font-family: 'Bangers', cursive;
+  margin-bottom: -85px;
+}
+.key{
+  height: 100px;
+}
