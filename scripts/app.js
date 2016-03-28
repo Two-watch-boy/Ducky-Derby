@@ -70,12 +70,6 @@ $(document).ready(function(){
         }
       }
     $("#score").text(duck1Wins + " " + ':SCORE:' + " " + duck2Wins);
-    if(duck1Wins === 5){
-      alert("Duck 1 Wins 5 Times!!!");
-    }
-    if(duck2Wins === 5){
-      alert("Duck 2 Wins 5 Times!!!");
-    }
     $(".reset").on("mousedown", function(){
       console.log("reset");
       quack.play();
@@ -88,6 +82,8 @@ $(document).ready(function(){
       console.log("reset");
       quack.play();
       $("#score").text('0 :SCORE: 0');
+      duck1Wins = 0;
+      duck2Wins = 0;
       $('.duck1').css("margin-left", duck1MarL = 30);
       $('.duck2').css("margin-left", duck2MarL = 30);
       $('#winner').remove();
