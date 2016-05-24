@@ -1,23 +1,23 @@
 .duck1{
-  width: 150px;
-  padding-top: 75px;
-  margin-left: 30px;
+  width: 11%;
+  padding-top: 5%;
+  margin-left: 2%;
 }
 .duck2{
-  width: 150px;
-  padding-top: 30px;
-  margin-left: 30px;
+  width: 11%;
+  padding-top: 1%;
+  margin-left: 2%;
 }
 body{
   background-image: url("../images/waves.jpg");
   background-size: cover;
-  background-position: center -300px;
+  background-position: center;
   background-repeat: no-repeat;
   background-color: rgba(110,207,242,1);
 }
 h1{
   text-align: center;
-  font-size: 200px;
+  font-size: 13vw;
   font-family: 'Bangers', cursive;
   margin-top: 15px;
   color: #F2C802;
@@ -25,28 +25,26 @@ h1{
 }
 .reset{
   float:right;
-  bottom: -20px;
-  font-size: 30px;
+  font-size: 2vw;
   font-family: 'Bangers', cursive;
 }
 .clearScore{
   float:right;
-  bottom: -20px;
-  font-size: 30px;
+  font-size: 2vw;
   font-family: 'Bangers', cursive;
 }
 #winner{
   text-align: center;
-  font-size: 60px;
+  font-size: 5vw;
   font-family: 'Bangers', cursive;
-  margin-bottom: -85px;
+  margin-bottom: -7%;
 }
 .key{
-  height: 100px;
+  width: 10%;
 }
 #score{
   text-align: center;
-  margin-bottom: -25px;
+  margin-bottom: -2%;
   font-size: 25px;
   font-family: 'Bangers', cursive;
 }
